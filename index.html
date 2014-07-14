@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="">
+	<head>
+		<title>AngularJS</title>
+		<link rel="stylesheet" href="css/foundation.min.css">
+	</head>
+
+	<body>
+		<div ng-app="">
+            NAME:
+            <input type = "text" ng-model="name">
+			<h1>{{name}}</h1>
+
+            <a ng-href="{{name}}.jpg">Hey {{name}}</a>
+            </br>
+            </br>
+            <input type="text" ng-model="compo">
+            <div class="{{compo}}">
+                Wrap me with a foundation component
+            </div>
+
+           </div>
+		<script type="text/javascript" src="angular.min.js"></script>
+	</body>
+</html>
