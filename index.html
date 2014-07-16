@@ -19,8 +19,8 @@
 
     <div ng-controller = "FirstCtrl">
         <!--NAME:-->
-        <input type = "text" ng-model="data.name">
-        <h1>{{data.name}}</h1>
+        <input type = "text" ng-model="data.message">
+        <h1>{{data.message}}</h1>
 
         <!--<a ng-href="{{data.name}}.jpg">Hey {{data.name}}</a>-->
         </br>
@@ -39,8 +39,8 @@
 
 
     <div ng-controller="SecondCtrl">
-        <input type="text" ng-model="data.name">
-        <h1>{{data.name}}</h1>
+        <input type="text" ng-model="data.message">
+        <h1>{{data.message | reverse}}</h1>
     </div>
 
 
