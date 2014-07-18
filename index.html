@@ -2,17 +2,27 @@
 <html>
 <head>
     <title>AngularJS</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
 
-<body>
-    <div ng-app='superhero'>
-        <div superman flash></div>
-    </div>
+<body ng-app="myApp">
 
-    <script type="text/javascript" src="angular.min.js"></script>
-    <script src="piyu.js"></script>
+    <div ng-view></div>
+
+
+
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-animate.js"></script>
+    <script type="text/javascript" src="js/angular-route.js"></script>
+    <script src="js/piyu.js"></script>
+    <script src="js/piyu2.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,36 @@
+<div class="container" >
+    <div class="row">
+        <div class="col-md-6 col-md-push-3" >
+            <h2>{{"Hello " + data.name | username}}</h2>
+
+            <div class="jumbotron">
+                <div class="row">
+
+                    <!--<span class="input-group-addon">@</span>-->
+
+                    <div class="col-md-12" style="padding: 4px">
+
+                        <!--<span class="input-group-addon">@</span>-->
+
+                        <input type="text"  ng-model='data.name' class="form-control" placeholder="Username">
+
+                    </div>
+
+
+                    <div class="col-md-12" style="padding: 4px">
+                        <!--<span class="input-group-addon">**</span>-->
+                        <input type="password" class="form-control"  placeholder="Password">
+
+                    </div>
+
+                    <div class="col-md-12">
+                        <button ng-click="redirectTo('welcome')" class="btn btn-primary pull-right">Submit</button>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
